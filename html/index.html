@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Regalos Especiales</title>
+</head>
+<body>
+    <div>
+        <h2>Regalos Especiales</h2>
+
+        <p> E-mail <input type="text"  id="email"></p>
+        <p> Password <input type="password" id="password">
+        <button id="login">Iniciar Sesión</button></p>
+        <div id="usuario"></div>
+
+        <h3>Regalos</h3>
+        <button id="regalo">Visualizar regalos</button>
+        <div id="dispregalo"></div> <br>
+
+        <p> Id_Regalo <input type="number"  id="id_regalo"></p>
+        <p> Descripcion  <input type="text" id="descripcion"></p>
+        <p> Costo <input type="number"  id="costo"></p>
+        <p> Estrellas Promedio <input type="range"  min="0" max="5" step="1" id="estrellas"></p>
+        <p> Id_Categoria <input type="number" id="id_categoria"></p>
+
+        <button id="regaloCrear">Crear regalo</button>
+        <div id="dispregaloID"></div> <br>
+
+        <button id="regaloModificar">Modificar regalo</button>
+        <div id="modregaloID"></div> <br>
+
+        <button id="regaloBorrar">Borrar regalo</button>
+        <div id="borraregaloID"></div>
+    
+        <h3>Categorias</h3>
+        <button id="cat">Visualizar categorias</button>
+        <div id="dispcat"></div> <br>
+
+        <h3>Pedidos</h3>
+        <button id="pedido">Visualizar pedidos</button>
+        <div id="dispped"></div> <br>
+        
+    </div>
+    
+    <script type="text/javascript" src="index.js"></script>
+</body>
+</html>
