@@ -3,11 +3,11 @@
 const { Sequelize } = require('sequelize');
 
 const sequelize = new Sequelize(
- 'dbRegalos',   // 'BeduShop', // Nombre de la BD        process.env.DATABASE,   // DEFINIR COMO VARIABLES DE ENTORNO
+ 'dbRegalos',    // Nombre de la BD        process.env.DATABASE,   // DEFINIR COMO VARIABLES DE ENTORNO
   'root', //'root', // Usuario                    process.env.USER,
-  'root',  //*9ak/oVTwtY_eI:.', //contraseña      process.env.PASSWORD
+  'root',   //contraseña      process.env.PASSWORD
 {
-  host: 'localhost', //'34.221.160.76', // host        process.env.HOST
+  host: 'localhost', // host        process.env.HOST
   dialect: 'mssql',
   dialectOptions: {
     options: {
